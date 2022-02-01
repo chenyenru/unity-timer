@@ -298,6 +298,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c0b0cb324e274610a43ee42083820e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  mainInputField: {fileID: 0}
 --- !u!114 &197621157
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -439,6 +440,7 @@ MonoBehaviour:
   Timer: {fileID: 1201561435}
   Camera: {fileID: 151597336}
   Text: {fileID: 1826553708}
+  mainInputField: {fileID: 0}
 --- !u!114 &658936856
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -739,9 +741,9 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 7fdb65ef178e3440384eb70636273fba, type: 3}
-  m_PlayOnAwake: 1
-  m_Volume: 1
+  m_audioClip: {fileID: 8300000, guid: 287a616c72d52446190043f1ddf37ecd, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 0.522
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -1071,7 +1073,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Time to Rest
+  m_Text: "Take a break \U0001F60E\U0001F60E"
 --- !u!222 &1431915205
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1130,7 +1132,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.6666667, g: 0.6666667, b: 0.6666667, a: 0.74509805}
+  m_Color: {r: 0.6666667, g: 0.6666667, b: 0.6666667, a: 0.38431373}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1

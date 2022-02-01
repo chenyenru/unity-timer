@@ -22,9 +22,10 @@ public class Timer : MonoBehaviour
             {
                 timeValue -= Time.deltaTime;
             }
-            else if (timeValue==0)
+            else if (timeValue<=0)
             {
                 timesUpSound.Play();
+                timerButton();
                 timeValue = settedTime;
             }
         }

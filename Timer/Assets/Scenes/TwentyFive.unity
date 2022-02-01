@@ -359,9 +359,9 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 7fdb65ef178e3440384eb70636273fba, type: 3}
-  m_PlayOnAwake: 1
-  m_Volume: 1
+  m_audioClip: {fileID: 8300000, guid: 287a616c72d52446190043f1ddf37ecd, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 0.522
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -613,6 +613,7 @@ GameObject:
   - component: {fileID: 1375123901}
   - component: {fileID: 1375123900}
   - component: {fileID: 1375123899}
+  - component: {fileID: 1375123902}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -681,6 +682,19 @@ RectTransform:
   m_AnchoredPosition: {x: -1.9376831, y: -0.25}
   m_SizeDelta: {x: 278.4068, y: -12.5}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1375123902
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1375123898}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fed349a9892fd463399e23491cfcbe67, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainInputField: {fileID: 6527668}
 --- !u!1 &1540694614
 GameObject:
   m_ObjectHideFlags: 0
@@ -768,7 +782,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 00:00
+  m_Text: 25:00
 --- !u!222 &1540694618
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1020,6 +1034,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c0b0cb324e274610a43ee42083820e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  mainInputField: {fileID: 6527666}
 --- !u!1 &1834796578
 GameObject:
   m_ObjectHideFlags: 0
@@ -1223,6 +1238,7 @@ MonoBehaviour:
   Timer: {fileID: 1540694614}
   Camera: {fileID: 519420028}
   Text: {fileID: 1924410473}
+  mainInputField: {fileID: 6527666}
 --- !u!1 &1847327187
 GameObject:
   m_ObjectHideFlags: 0

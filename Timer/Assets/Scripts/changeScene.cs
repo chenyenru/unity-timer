@@ -1,15 +1,25 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 public class changeScene : MonoBehaviour
 {
+
     bool firstButtonPressed = true;
     bool reset = false;
     float timeOfFirstButton;
+    public GameObject mainInputField;
 
     void Update()
+    {
+        if (mainInputField == null || mainInputField.GetComponent<InputField>().isFocused == false)
+        {
+            Change();
+        }
+    }
+    void Change()
     {
         if ((Input.GetKeyDown(KeyCode.LeftShift) | Input.GetKeyDown(KeyCode.RightShift))&&(SceneManager.GetActiveScene().name == "TwentyFive"))
         {
@@ -45,7 +55,7 @@ public class changeScene : MonoBehaviour
                 SceneManager.LoadScene("Five");
                 Debug.Log("Scene Loaded");
             }
-        }
+    }
 
 
 
