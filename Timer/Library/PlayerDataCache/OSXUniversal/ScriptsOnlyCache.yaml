@@ -16,16 +16,12 @@ ScriptsOnlyBuild:
     - UnityEditor.U2D.IK.IKEditorManager
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridPaintingState
-    - UnityEditor.Tilemaps.GridPaletteBrushes
-    - UnityEditor.Tilemaps.GridPalettes
     - UnityEditor.Tilemaps.SceneViewGridManager
     - UnityEditor.Tilemaps.SceneViewOpenTilePaletteHelper
     - UnityEditor.Tilemaps.TileDragAndDropManager
     - UnityEditor.Tilemaps.TilemapPrefabStageHelper
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
-    Unity.Timeline.Editor.dll:
-    - TimelinePreferences
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -811,4 +807,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/TwentyFive.unity
   - Assets/Scenes/Ten.unity
   - Assets/Scenes/Five.unity
-  playerPath: /Users/chen_yenru/Documents/GitHub/unity-timer/Timer/Pomodoro.app
+  playerPath: /Users/chen_yenru/Documents/GitHub/Unity/unity-timer/Pomodoro.app
